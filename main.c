@@ -16,13 +16,13 @@ int main()
 	animal(year);
 	leap=leapyear(year);
 	if(leap==1)
-    	{
-       		printf("%d is leap year",year);
-    	}
-    	else
-    	{
-        	printf("%d is not leap year",year);
-    	}
+    {
+       	printf("%d is leap year",year);
+    }
+    else
+    {
+        printf("%d is not leap year",year);
+    }
 	printf("\n------------ %d / %d ------------\n\n", year, month);
 	Calendar(year,month,leap);
 	return 0;
@@ -104,9 +104,9 @@ int Calendar (int year, int month, int leap)
 	}
 	printf("\n");
 	for (i = 0;i < space;i = i + 1)
-    	{
-    		printf("     ");
-    	}
+    {
+    	printf("     ");
+    }
 	if ((leap == 1) && (month == 2))
 	{
 		for (i = 1;i <= 29;i = i + 1)
