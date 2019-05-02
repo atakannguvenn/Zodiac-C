@@ -104,9 +104,9 @@ int Calendar (int year, int month, int leap)
 	}
 	printf("\n");
 	for (i = 0;i < space;i = i + 1)
-    {
-    	printf("     ");
-    }
+    	{
+    		printf("     ");
+    	}
 	if ((leap == 1) && (month == 2))
 	{
 		for (i = 1;i <= 29;i = i + 1)
